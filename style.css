@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Plus+Jakarta+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+
+}
+.card{
+    padding: 20px;
+    border: 1px solid #0000001a;
+}
+.card-header{
+    display: flex;
+
+}
+.card-header img{
+    width: 112px;
+    height: 149px;
+    object-fit: cover;
+
+}
+.right-header{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.right-header .header-text{
+    color: #008cc9;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    word-break: break-word;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.star-raiting{
+    margin-bottom: 10px;
+}
+.star-raiting i{
+    color: #fc9835!important;
+}
+.star-raiting span{
+    font-size: 12px;
+    color: #008cc9;
+}
+
+.location{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #807f7f;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    margin-bottom: 7px;
+}
+.map-loc{
+    color: #807f7f;
+    font-size: 15px;
+    font-weight: 400;
+}
+.map-loc i{
+    margin-right: 7px;
+}
+.card-body {
+    padding: 20px 0;
+    border-bottom: 1px solid #00000014;
+}
+.card-body h6{
+    font-size: 12px;
+    color: #807f7f;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.card-body span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.5;
+
+}
+.card-footer{
+    margin-top: 10px;
+}
+.card-footer .footer-header{
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.app-divider{
+    margin-bottom: 7px;
+}
+.app-divider .card-name{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333;
+}
+.app-divider .card-time{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333333b3;
+}
+.footer-header p{
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.read-more{
+    margin-top: 7px;
+    display: block;
+    color: #008cc9;
+}
+
+@media only screen and (max-width: 768px){
+    .card-body, .card-footer{
+        display: none;
+    }
+    }
